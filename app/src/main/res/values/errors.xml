@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="errUserEmpty">User not empty</string>
+    <string name="errPw">error patern password</string>
+    <string name="errEm">error pater emmail</string>
+    <string name="errShortNameEmpty">nombre corto bacio</string>
+    <string name="errescripcionEmpty">descripcion bacia</string>
+    <string name="errNameEmpty">nombre vacio</string>
+
+</resources>

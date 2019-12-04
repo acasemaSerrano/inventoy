@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">inventoryFragment</string>
+    <string name="User">User Name/e mail address</string>
+    <string name="Password">Password</string>
+    <string name="RememberMe">Remember me</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="SignIn">Sign In</string>
+    <string name="Google">Google</string>
+    <string name="Facebook">Login in with Facebook</string>
+    <string name="etUser">User</string>
+    <string name="Twiter">Twiter</string>
+    <string name="tvOtherSign">Or singnup with</string>
+    <string name="Inbentory">Inventario</string>
+    <string name="Dependecias">Dependencias</string>
+    <string name="sectores">Sectores</string>
+    <string name="productos">Productos</string>
+    <string name="perfil">Perfil</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="tiedUser">User</string>
+    <string name="tiedPassword1">Password</string>
+    <string name="tiedPassword2">Repeat Password</string>
+    <string name="tiedEmail">Email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="f_dependeci_manage_tvShortName">nombre corto</string>
+    <string name="f_dependeci_manage_tvName">nombre</string>
+    <string name="f_dependeci_manage_tvInventoy">inventario</string>
+    <string name="f_dependeci_manage_tvDescripcion">descripcion</string>
+    <string name="loading">loading....</string>
+    <string name="btnOk">Aceptar</string>
+    <string name="titulo_delete">borrar</string>
+    <string name="tmessage_delete">es tas seguro que quieres eliminal una dependencia</string>
+    <string name="useDeleted">un eliminado</string>
+    <string name="undo">undo</string>
+    <string name="f_secion_name">nombre</string>
+    <string name="f_secion_manage_shortName">nombre corto</string>
+    <string name="f_secion_manage_name">nombre</string>
+    <string name="f_secion_manage_descripcion">descripcion</string>
+    <string name="f_secion_manage_img">url de la umagen</string>
+    <string name="f_secion_manage_dependencia">dependencia</string>
+
+    <string-array name="inventory_array">
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+</resources>

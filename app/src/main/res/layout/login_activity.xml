@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/llLigonPadding"
+    android:id="@+id/llLoginPadding">
+
+    <TextView
+        android:id="@+id/User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/User"
+        android:layout_marginTop="@dimen/tvLoginMarginTop" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Password"
+        android:layout_marginTop="@dimen/tvLoginMarginTop" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chRememcte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/RememberMe"
+            style="@style/chechBoxLogin" />
+
+        <Button
+            android:id="@+id/btSignUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/SignUp"
+            style="@style/Widget.Button.Transparent"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btSignIn"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/btSignInLoginWidth"
+        android:layout_height="wrap_content"
+        android:text="@string/SignIn"
+        android:textColor="@android:color/white"
+        android:background="@drawable/selector_round_cornert"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOtherSign"
+        android:gravity="center"
+        android:text="@string/tvOtherSign"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/tbGoogle"
+            android:layout_width="@dimen/imgBtLoginWidth"
+            android:layout_height="@dimen/imgBtLoginHeight"
+            android:text="@string/Google"
+            android:layout_margin="@dimen/imdtbLoginMargin"
+            android:background="@drawable/ic_google"
+            />
+
+        <ImageButton
+            android:id="@+id/btFacebook"
+            android:layout_margin="@dimen/imdtbLoginMargin"
+            android:layout_width="@dimen/imgBtLoginWidth"
+            android:layout_height="@dimen/imgBtLoginHeight"
+            android:text="@string/Facebook"
+            android:background="@drawable/ic_facebook"/>
+
+        <ImageButton
+            android:id="@+id/btTwiter"
+            android:layout_margin="@dimen/imdtbLoginMargin"
+            android:layout_width="@dimen/imgBtLoginWidth"
+            android:layout_height="@dimen/imgBtLoginHeight"
+            android:text="@string/Twiter"
+            android:background="@drawable/ic_twitter" />
+
+    </LinearLayout>
+</LinearLayout>

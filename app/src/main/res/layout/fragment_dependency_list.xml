@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDependency"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="315dp"
+        android:layout_height="296dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_save_name"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/pb"
+        layout="@layout/progesbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/btfmargin"
+        android:clickable="true"
+
+        android:elevation="@dimen/elevation_fab"
+        app:srcCompat="@drawable/ic_action_name" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
